@@ -1,0 +1,15 @@
+
+CREATE DATABASE PC2_Marcos_prova;
+USE PC2_Marcos_prova;
+
+CREATE TABLE Cadastro_cur(
+ID_CUR BIGINT PRIMARY KEY AUTO_INCREMENT,
+NOME_CUR VARCHAR(50) NOT NULL,
+IDADE_MIN INT NOT NULL,
+PERIODO_CUR int not null,
+MENSALID_CUR int not null
+);
+
+SELECT *FROM Cadastro_cur
+
+
